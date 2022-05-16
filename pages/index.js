@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import Rsvp from '../components/RSVP'
+import Local from '../components/Local'
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       </Head>
       <Nav/>
       <Rsvp/>
+      <Local
     </div>
   )
 }
