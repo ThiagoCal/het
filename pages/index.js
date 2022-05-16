@@ -8,15 +8,15 @@ import Local from '../components/Local'
 
 export default function Home() {
   return (
+    <><Head>
+      <title>HeT</title>
+      <meta name="description" content="Casamento HeT" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
     <div className={styles.container}>
-      <Head>
-        <title>HeT</title>
-        <meta name="description" content="Casamento HeT" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Nav/>
-      <Rsvp/>
-      <Local/>
-    </div>
+        <Nav />
+        <Rsvp />
+        <Local />
+    </div></>
   )
 }
