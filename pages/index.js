@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <Nav/>
       <Rsvp/>
-      <Local
+      <Local/>
     </div>
   )
 }
