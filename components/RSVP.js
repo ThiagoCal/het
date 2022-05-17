@@ -16,36 +16,33 @@ function Rsvp() {
       .catch(() => setState({ error: true }))
   }
   return (
-
-    <div class="container justify-content-center">
-      <div class="row">
-        <div class="col-sm-4 offset-sm-2 ">
+    <div className="container justify-content-center">
+      <div className="row">
+        <div className="col-sm-4">
           <form onSubmit={handleSubmit}>
-            <h2 class="">RSVP</h2>
-            <div class="form-outline mb-4">
-              <label type="text" class="form-label">Nome e Sobrenome</label>
-              <input type="text" name="nome" class="form-control" />
+            <h2 className="">RSVP</h2>
+            <div className="form-outline mb-4">
+              <label type="text" className="form-label">Nome e Sobrenome</label>
+              <input type="text" name="nome" className="form-control" />
             </div>
-            <div class="form-outline mb-4">
-              <label type="text" class="form-label">Mensagem</label>
-              <textarea class="form-control" name="mensagem"  rows="4" />
+            <div className="form-outline mb-4">
+              <label type="text" className="form-label">Mensagem</label>
+              <textarea className="form-control" name="mensagem"  rows="4" />
             </div>
-            <div class="form-check d-flex justify-content-center mb-4">
-              <label class="form-check-label" for="going">
-                <input class="form-check-input me-2" id="going" type="radio" name="vai" value="sim" defaultChecked />
+            <div className="form-check d-flex justify-content-center mb-4">
+              <label className="form-check-label" for="going">
+                <input className="form-check-input me-2" id="going" type="radio" name="vai" value="sim" defaultChecked />
                 Vou
               </label>
             </div>
-            <div class="form-check d-flex justify-content-center mb-4">
-              <label class="form-check-label" for="notgoing">
-                <input class="form-check-input" id="notgoing "type="radio" name="vai" value="false" />
+            <div className="form-check d-flex justify-content-center mb-4">
+              <label className="form-check-label" for="notgoing">
+                <input className="form-check-input" id="notgoing "type="radio" name="vai" value="false" />
                 Não vou
               </label>
             </div>
-            <div class="col text-center">
-
+            <div className="col text-center">
               <button type="submit" className="btn btn-primary">Enviar</button>
-
               {value.success &&
                 <div className="alert alert-success">
                   Enviado!
@@ -57,20 +54,15 @@ function Rsvp() {
                   Opa! Ocorreu um erro! Liga para o Thiago!
                 </div>
               }
-
-              <div>
-                <br />
-                {/* <img src="/gifs/mchammer.gif" />
-                <img src="/gifs/mchammer.gif" />
-                <img src="/gifs/mchammer.gif" /> */}
-              </div>
             </div>
           </form>
         </div>
-        <div class="local col-sm-4">
+        <div className="col-sm-2"></div>
+        <div className="local col-sm-4">
           <Local />
         </div>
       </div>
+      <br/>
     </div>
   )
 }

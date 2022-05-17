@@ -34,37 +34,40 @@ function Countdown(){
   }, [])
 
   return(
-    <>
-    {partyTime ? (
-      <h1>Party Time!!</h1>
-    ) : (
-    <div className="col-sm-6 offset-sm-4">
-      <div className="time-wrapper">
-        <div className="timer-inner">
-          <div className="timer-segment">
-            <span className="time">{days}</span>
-            <span className="label">Dias</span>
+    <div className="container">
+      <div className="row">
+        {partyTime ? (
+          <h1>Party Time!!</h1>
+        ) : (
+        <div className="col-sm-4 offset-sm-4">
+          <div className="time-wrapper">
+            <div className="timer-inner">
+              <div className="timer-segment">
+                <span className="time">{days}</span>
+                <span className="label">Dias</span>
+              </div>
+              <span className="divider">:</span>
+              <div className="timer-segment">
+                <span className="time">{hours}</span>
+                <span className="label">Horas</span>
+              </div>
+              <span className="divider">:</span>
+              <div className="timer-segment">
+                <span className="time">{minutes}</span>
+                <span className="label">Minutos</span>
+              </div>
+              <span className="divider">:</span>
+              <div className="timer-segment">
+                <span className="time">{seconds}</span>
+                <span className="label">Segundos</span>
+              </div>
+            </div>
           </div>
-          <span className="divider">:</span>
-          <div className="timer-segment">
-            <span className="time">{hours}</span>
-            <span className="label">Horas</span>
-          </div>
-          <span className="divider">:</span>
-          <div className="timer-segment">
-            <span className="time">{minutes}</span>
-            <span className="label">Minutos</span>
-          </div>
-          <span className="divider">:</span>
-          <div className="timer-segment">
-            <span className="time">{seconds}</span>
-            <span className="label">Segundos</span>
-          </div>
-        </div>
+        </div>)
+        }
       </div>
-    </div>)
-    }
-    </>
+
+    </div>
   )
 }
 

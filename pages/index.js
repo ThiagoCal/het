@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+// import Image from 'next/image'
+// import styles from '../styles/Home.module.css'
 import Nav from '../components/Nav'
 import Rsvp from '../components/RSVP'
 import React, { useEffect } from "react";
@@ -34,16 +34,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-      <div className={styles.container}>
+      <div className="container">
         <br/>
         <Banner/>
-        <Main />
-        <Countdown />
+        <Main/>
+        <Countdown/>
         <br/>
         <br/>
         <Rsvp/>
         <br/>
-
       </div>
       <Footer/>
     </div>
