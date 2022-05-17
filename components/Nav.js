@@ -1,14 +1,23 @@
 import Link from 'next/link'
-import styles from '../styles/Navbar.module.css'
+
 
 function Nav (){
   return(
-    <nav>
-      <ul className={ styles.main }>
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/contato">Contato</Link></li>
-      </ul>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand logo"><Link href="/">H&T</Link></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"><Link href="/contato">Contato</Link></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   )
 }
 
