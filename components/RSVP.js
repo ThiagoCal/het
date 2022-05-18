@@ -30,13 +30,13 @@ function Rsvp() {
               <textarea className="form-control" name="mensagem"  rows="4" />
             </div>
             <div className="form-check d-flex justify-content-center mb-4">
-              <label className="form-check-label" for="going">
+              <label className="form-check-label" htmlFor="going">
                 <input className="form-check-input me-2" id="going" type="radio" name="vai" value="sim" defaultChecked />
                 Vou
               </label>
             </div>
             <div className="form-check d-flex justify-content-center mb-4">
-              <label className="form-check-label" for="notgoing">
+              <label className="form-check-label" htmlFor="notgoing">
                 <input className="form-check-input" id="notgoing "type="radio" name="vai" value="false" />
                 Não vou
               </label>
@@ -57,7 +57,7 @@ function Rsvp() {
             </div>
           </form>
         </div>
-        <div className="col-sm-2"></div>
+        <div className="col-sm-1"></div>
         <div className="local col-sm-4">
           <Local />
         </div>

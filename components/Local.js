@@ -1,6 +1,6 @@
 function Local() {
   return (
-    <div className="container">
+    <div>
       <h3>Local:</h3>
       <a href="https://www.google.com">Chalet Clarice</a> <br />
       Rua Assunção, n. 2 <br />
@@ -8,7 +8,7 @@ function Local() {
       <h3>Dia e hora:</h3>
       09/07/2022 às 19h <br /><br />
       <h3>Traje:</h3>
-      Esporte Fino - Casamento <br />
+      Passeio Completo <br />
     </div>
   )
 }

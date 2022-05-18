@@ -11,30 +11,33 @@ function Main(){
               <Image
                 src={weddingpic}
                 alt="Wedding Picture"
-                width="300px"
-                height="400px"
+                // width="300px"
+                // height="400px"
+                resizeMode='cover'
               >
               </Image>
           </div>
         </div>
-        <div className="col-sm-6">
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        <div className="col-sm-3 offset-sm-1">
+          <span className="amor">Amor</span><br/>
+          <span className="song">É uma palavra linda,<br/>
+          É uma reza linda,<br/>
+          É uma linguagem
+          </span>
+        </div>
+        <div className="col-sm-3">
+          <span className="amor">אהבה</span><br/>
+            <span className="song">,היא מילה יפה<br/>
+          היא תפילה יפה,<br/>
+           היא שפה</span>
         </div>
       </div>
       <br/>
       <div className="row">
         <div className="col-sm-6">
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <span>אהבה, היא מילה יפה
+          היא תפילה יפה, היא שפה
+            </span>
         </div>
         <div className="col-sm-4 offset-sm-2">
           <div className="wedding">

@@ -11,30 +11,35 @@ footer {
   background-color: #0a4275;
 }
 
+
+
 .logo {
   margin-left: 2rem;
   font-size: 42px;
 }
 
 .local {
-  margin-left: 2rem;
+  margin-left: 4rem;
   border-left: 1px solid grey;
   padding-left: 20px;
 }
-@media (max-width: 600px)
+@media (max-width: 360px)
 {
   .local
    {
     margin-top: 25px;
-    border-left: none;
+    border-left: 0px;
+    margin-left: 0px;
+    padding: 20px;
    }
 }
 
 .banner {
   background-position: center;
   padding: 20px 0;
-  background-color: white;
+  background-color: transparent;
   border-radius: 0px 0px 15px 15px;
+  z-index: 1;
   // background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
 }
 
@@ -90,4 +95,12 @@ footer {
 
 .label {
   font-size: 1rem;
+}
+
+.amor {
+  font-size: 3rem;
+}
+
+.song{
+  font-size: 1.5rem;
 }
