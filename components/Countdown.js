@@ -8,7 +8,7 @@ function Countdown(){
   const [seconds, setSeconds] = useState(0);
 
   useEffect(()=>{
-    const target = new Date("07/09/2022 18:59:59");
+    const target = new Date("07/09/2022 18:44:59");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -34,14 +34,14 @@ function Countdown(){
   }, [])
 
   return(
-    <div className="container mt-2">
+    <div className="container mt-3">
       <div className="row">
         {partyTime ? (
           <h1>Party Time!!</h1>
         ) : (
-        <div className="col-sm-3 offset-sm-5">
+        <div className="col-sm-4 offset-sm-4">
           <h2 className="text-center">Countdown!</h2>
-          <div className="time-wrapper">
+          <div className="time-wrapper d-flex justify-content-center">
             <div className="timer-inner">
               <div className="timer-segment">
                 <span className="time">{days}</span>

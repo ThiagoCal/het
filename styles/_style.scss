@@ -20,21 +20,23 @@ footer {
 
 .local {
   // margin-left: 2 rem;
-  border-left: 1px solid grey;
-  padding-left: 20px;
+  // border-left: 1px solid grey;
+  // padding-left: 20px;
   font-size: 1.4em;
 }
-@media (max-width: 360px)
-{
-  .local
-   {
-    margin-top: 25px;
-    border-left: 0px;
-    margin-left: 0px;
-    padding: 20px;
-   }
+// @media (max-width: 360px)
+// {
+//   .local
+//    {
+//     margin-top: 25px;
+//     border-left: 0px;
+//     margin-left: 0px;
+//     padding: 20px;
+//    }
+// }
+.contato{
+  font-size: 1.5em;
 }
-
 .form-label{
   font-size: 1.5em;
 }
@@ -47,10 +49,10 @@ footer {
   font-size: 1.5em;
 }
 
-.localdiv{
-  margin-left: 3em;
-  padding-left: 2em;
-}
+// .localdiv{
+//   margin-left: 3em;
+//   padding-left: 2em;
+// }
 
 .banner {
   background-position: center;
@@ -79,16 +81,21 @@ footer {
 }
 
 .bgtext{
-  background-color: #2670b4;
+  // background-color: #2670b4;
   border-radius: 5px;
 }
 
+.txt{
+  text-align: justify;
+  // padding: 1em;
+}
+
 .text1{
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .text2{
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .row2{
@@ -97,6 +104,23 @@ footer {
 
 .wedding{
   border-radius: 5px;
+  align-items:center;
+  margin-top: 3em;
+}
+
+.wedding2{
+  border-radius: 50%;
+  // overflow: hidden;
+  // border-width: 3px;
+  // border-color: plum;
+  // border-radius: 5px;
+  // align-items:center;
+  // border-radius: 50%;
+  // overflow: hidden;
+  // border: 20px solid plum;
+}
+.countdown{
+  align-content: center;
 }
 
 .timer-wrapper {
@@ -132,7 +156,7 @@ footer {
 }
 
 .label {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 
 .amor {

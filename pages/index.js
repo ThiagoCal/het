@@ -7,6 +7,7 @@ import Rsvp from '../components/RSVP'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 import Main from '../components/Main'
+import Local from '../components/Local'
 import Countdown from '../components/Countdown'
 import desktopImage from '../public/backgroundpurple.png'
 import mobileImage from '../public/mobilepurple.png'
@@ -42,6 +43,8 @@ export default function Home() {
         <br/>
         <Banner/>
         <Main/>
+        <br/>
+        <Local />
         <Countdown/>
         <br/>
         <br/>
