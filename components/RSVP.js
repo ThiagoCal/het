@@ -27,7 +27,7 @@ function Rsvp() {
             </div>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Mensagem</label>
-              <textarea className="form-control" name="mensagem"  rows="4" />
+              <textarea className="form-control" name="mensagem" placeholder="Deixe aqui sua mensagem para o casal (não ficará pública)" rows="4" />
             </div>
             <div className="form-check d-flex justify-content-center mb-4">
               <label className="form-check-label" htmlFor="going">
@@ -57,10 +57,10 @@ function Rsvp() {
             </div>
           </form>
         </div>
-        <div className="col-sm-1"></div>
-        <div className="local col-sm-5 localdiv">
-          <Local />
-        </div>
+        {/* <div className="col-sm-1"></div>
+        <div className="local col-sm-5 localdiv"> */}
+
+        {/* </div> */}
       </div>
       <br/>
     </div>
