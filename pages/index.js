@@ -4,32 +4,28 @@ import Head from 'next/head'
 import Image from "next/image"
 import Nav from '../components/Nav'
 import Rsvp from '../components/RSVP'
-import React, { useEffect } from "react";
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 import Main from '../components/Main'
 import Countdown from '../components/Countdown'
 import desktopImage from '../public/backgroundpurple.png'
 import mobileImage from '../public/mobilepurple.png'
+import { useState, useEffect } from 'react';
 
 export default function Home() {
 
-  // See https://en.reactjs.org/docs/hooks-effect.html
   useEffect(() => {
 
       // Run code on client-side only : ensure document is here
       if (typeof document !== undefined) {
-
-        // load JS bootstrap dependency
         require('bootstrap/dist/js/bootstrap')
-
-
       }
-  // Run useEffect only once
-  // Read https://css-tricks.com/run-useeffect-only-once/
   }, [])
 
-  const imageUrl = useWindowWidth >= 650 ? desktopImage : mobileImage;
+  let width = useDeviceSize();
+  width = width[0]
+  console.log(width)
+  let imageUrl = width >= 650 ? desktopImage : mobileImage;
 
   return (
     <div>
@@ -41,7 +37,7 @@ export default function Home() {
       <Nav/>
       <div style={{
           backgroundImage: `url(${imageUrl})`,
-          backgroundRepeat: 'no-repeat',
+          // backgroundRepeat: 'no-repeat',
 
         }}>
 
@@ -59,17 +55,48 @@ export default function Home() {
   )
 }
 
-const useWindowWidth = () => {
-  const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
+const useDeviceSize = () => {
+
+  const [width, setWidth] = useState(0)
+  const [height, setHeight] = useState(0)
+
+  const handleWindowResize = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  }
 
   useEffect(() => {
-      const handleWindowResize = () => {
-          setWindowWidth(window.innerWidth);
-      };
+    // component is mounted and window is available
+    handleWindowResize();
+    window.addEventListener('resize', handleWindowResize);
+    // unsubscribe from the event on component unmount
+    return () => window.removeEventListener('resize', handleWindowResize);
+  }, []);
 
-      window.addEventListener('resize', handleWindowResize);
-      return () => window.removeEventListener('resize', handleWindowResize);
-  },[]);
+  return [width, height]
 
-  return windowWidth;
-};
+}
+
+// function getWindowDimensions() {
+//   if (typeof window !== "undefined") {
+//     // browser code
+//     const width = window.innerWidth;
+//   }
+//   return width
+// }
+
+// const useWindowWidth = () => {
+//   const [windowWidth, setWindowWidth] = useState(getWindowDimensions());
+
+//   useEffect(() => {
+//       const handleWindowResize = () => {
+//           setWindowWidth(getWindowDimensions());
+//       };
+
+//       window.addEventListener('resize', handleWindowResize);
+//       return () => window.removeEventListener('resize', handleWindowResize);
+//   },[]);
+
+//   console.log(windowWidth)
+//   return windowWidth;
+// };

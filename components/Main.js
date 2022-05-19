@@ -13,7 +13,7 @@ function Main(){
                 alt="Wedding Picture"
                 // width="300px"
                 // height="400px"
-                resizeMode='cover'
+                resizemode='cover'
               >
               </Image>
           </div>
