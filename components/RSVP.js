@@ -18,7 +18,7 @@ function Rsvp() {
   return (
     <div className="container justify-content-center">
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-sm-5">
           <form onSubmit={handleSubmit}>
             <h2 className="">RSVP</h2>
             <div className="form-outline mb-4">
@@ -42,7 +42,7 @@ function Rsvp() {
               </label>
             </div>
             <div className="col text-center">
-              <button type="submit" className="btn btn-primary">Enviar</button>
+              <button type="submit" className="btn btn-primary send">Enviar</button>
               {value.success &&
                 <div className="alert alert-success">
                   Enviado!
@@ -58,7 +58,7 @@ function Rsvp() {
           </form>
         </div>
         <div className="col-sm-1"></div>
-        <div className="local col-sm-4">
+        <div className="local col-sm-5 localdiv">
           <Local />
         </div>
       </div>

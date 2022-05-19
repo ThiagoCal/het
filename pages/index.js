@@ -25,7 +25,7 @@ export default function Home() {
   let width = useDeviceSize();
   width = width[0]
   console.log(width)
-  let imageUrl = width >= 650 ? desktopImage : mobileImage;
+  const imageUrl = width >= 650 ? desktopImage : mobileImage;
 
   return (
     <div>
@@ -35,12 +35,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-      <div style={{
-          backgroundImage: `url(${imageUrl})`,
-          // backgroundRepeat: 'no-repeat',
-
+       <div style={{
+          backgroundImage: `url(${imageUrl.src})`,
+          backgroundRepeat: 'no-repeat',
         }}>
-
         <br/>
         <Banner/>
         <Main/>
