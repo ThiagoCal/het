@@ -39,6 +39,15 @@
 //   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 // }
 
-.middle {
-  aspect-ratio: 10 / 5;
+.middle-wrap{
+  position:relative;
+  overflow: hidden;
+  height: 100%;
+  width: auto;
+
+}
+
+.middle{
+  position: absolute;
+
 }

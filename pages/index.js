@@ -9,7 +9,7 @@ import Banner from '../components/Banner'
 import Main from '../components/Main'
 import Local from '../components/Local'
 import Countdown from '../components/Countdown'
-import desktopImage from '../public/backgroundpurple.png'
+import desktopImage from '../public/backgroundpurple-rm.png'
 import mobileImage from '../public/mobilepurple.png'
 import { useState, useEffect } from 'react';
 
@@ -37,8 +37,9 @@ export default function Home() {
       </Head>
       <Nav/>
        <div style={{
-          backgroundImage: `url(${imageUrl.src})`,
+          backgroundImage:'linear-gradient(to right top, #4ca1af, #6db1bc, #8bc0ca, #a8d0d7, #c4e0e5)',
           backgroundRepeat: 'no-repeat',
+          backgroundColor: 'rgba(161, 196, 250, 0.8)'
         }}>
         <br/>
         <Banner/>
