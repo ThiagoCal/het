@@ -1,6 +1,9 @@
 import Image from "next/image"
 import weddingpic from "../public/hannaethiago.jpg"
 import pipos from "../public/pipos.jpg"
+import Middle from '../components/Middle'
+import middle from "../public/bannerwed.jpg"
+
 
 function Main(){
   return(
@@ -51,6 +54,17 @@ function Main(){
           </div>
         </div>
       </div>
+      <div className="row">
+        <div className="col-lg-12 middle">
+          <Image
+          src={middle}
+          alt="Wedding Picture"
+          // width="300px"
+
+           >
+        </Image>
+        </div>
+      </div>
       <div className="row mt-4">
         <div className="col-lg-7 pl-3 txt">
           <span className="text2">
@@ -76,7 +90,7 @@ function Main(){
                 alt="H&T"
                 width="385px"
                 height="400px"
-                className="wedding2"
+                className="wedding2 middle"
               >
               </Image>
           </div>

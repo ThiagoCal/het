@@ -1,5 +1,6 @@
 import Image from "next/image"
 import pipos from "../public/pipos.jpg"
+import clarice from "../public/chaletclarice.jpeg"
 
 function Local() {
   return (
@@ -8,7 +9,7 @@ function Local() {
         <div className="col-sm-4 ">
           <div>
             <Image
-              src={pipos}
+              src={clarice}
               alt="H&T"
               width="385px"
               height="400px"
