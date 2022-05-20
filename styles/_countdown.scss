@@ -2,6 +2,10 @@
   align-content: center;
 }
 
+.title{
+  font-family: 'Quattrocento';
+  font-size: 2em;
+}
 .timer-wrapper {
   background-color: rgba(0,0,0,0.8);
   padding: 5px;
@@ -27,7 +31,8 @@
 
 .divider,
 .time {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  font-family: 'Quattrocento';
 }
 
 .divider{
@@ -35,5 +40,6 @@
 }
 
 .label {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  font-family: 'Quattrocento';
 }

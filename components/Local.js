@@ -1,26 +1,27 @@
 import Image from "next/image"
 import pipos from "../public/pipos.jpg"
 import clarice from "../public/chaletclarice.jpeg"
+import Link from 'next/link'
 
 function Local() {
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 mb-4">
       <div className="row mt-3">
-        <div className="col-sm-4 ">
-          <div>
+        <div className="col-lg-6 localimg ">
+          <div className="localimg">
             <Image
                 src={clarice}
                 alt="H&T"
                 width="1510"
                 height="945"
-                className="wedding"
+                className="localimg"
             >
             </Image>
           </div>
         </div>
-        <div className="col-sm-5 offset-sm-3 text-end pt-2 local">
+        <div className="col-lg-5 offset-lg-1 pt-2 local">
           <Info>Local:</Info>
-          <a href="https://www.google.com">Chalet Clarice</a> <br />
+          <p className="chalet">Chalet Clarice <Link target="_blank" href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6"  rel='noopener noreferrer'> (mapa)</Link></p>
           Rua Assunção, n. 2 <br />
           Botafogo, Rio de Janeiro - RJ, 22251-030 <br /><br />
           <Info>Dia e hora:</Info>

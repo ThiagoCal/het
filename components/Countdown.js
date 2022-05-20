@@ -34,13 +34,13 @@ function Countdown(){
   }, [])
 
   return(
-    <div className="container mt-3">
+    <div className="container mt-5 mb-4 pt-2">
       <div className="row">
         {partyTime ? (
           <h1>Party Time!!</h1>
         ) : (
         <div className="col-sm-4 offset-sm-4">
-          <h2 className="text-center">Countdown!</h2>
+          <p className="text-center title">Countdown</p>
           <div className="time-wrapper d-flex justify-content-center">
             <div className="timer-inner">
               <div className="timer-segment">

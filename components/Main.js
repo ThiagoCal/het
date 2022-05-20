@@ -7,7 +7,7 @@ import middle from "../public/bannerwed.jpg"
 
 function Main(){
   return(
-    <div className="container mt-4">
+    <div className="container mt-4 mb-4">
       <div className="row">
         <div className="col-lg-4">
           <div>
@@ -69,7 +69,7 @@ function Main(){
       <div className="row mt-4">
         <div className="col-lg-7 pl-3 txt">
           <div className="card second-text p-3">
-            <div className="card-block text-white text2">
+            <div className="card-block text2">
               Nunca podíamos imaginar que aquela noite no bar Shooters, em Botafogo,
               iria mudar completamente nossas vidas. O que começou com uma amizade despretensiosa,
               foi se transformando numa grande parceria. <br/><br/>

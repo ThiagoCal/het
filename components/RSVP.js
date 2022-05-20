@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Local from '../components/Local'
+import Pix from '../components/Pix'
 
 function Rsvp() {
   const [value, setState] = useState({})
@@ -16,9 +17,9 @@ function Rsvp() {
       .catch(() => setState({ error: true }))
   }
   return (
-    <div className="container justify-content-center">
+    <div className="container mt-4 justify-content-center">
       <div className="row">
-        <div className="col-sm-5">
+        <div className="col-lg-5">
           <form onSubmit={handleSubmit}>
             <h2 className="">RSVP</h2>
             <div className="form-outline mb-4">
@@ -56,6 +57,9 @@ function Rsvp() {
               }
             </div>
           </form>
+        </div>
+        <div className="col-lg-5">
+            <Pix />
         </div>
         {/* <div className="col-sm-1"></div>
         <div className="local col-sm-5 localdiv"> */}
