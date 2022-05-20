@@ -1,0 +1,36 @@
+
+.timer-wrapper {
+  background-color: rgba(0,0,0,0.8);
+  padding: 5px;
+  border: solid 2px rgb(202, 51, 51);
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.timer-inner{
+  color:rgb(92, 93, 95);
+  display: flex;
+  border: solid 2px #fff;
+  padding: 5px;
+  background-color: rgba rgba(256, 256 ,256 ,0.8);
+  border-radius: 5px;
+}
+
+.timer-segment{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.divider,
+.time {
+  font-size: 2.5rem;
+}
+
+.divider{
+  padding: 0 10px;
+}
+
+.label {
+  font-size: 1.4rem;
+}
