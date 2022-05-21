@@ -23,9 +23,10 @@ function Pix() {
             Por isso, preferimos presentes em forma de PIX.</p>
         </div>
         <div>
-          {/* <Image
-            source={qrcode}>
-          </Image> */}
+          <Image
+            src={qrcode}
+            alt="Pix">
+          </Image>
         </div>
         <div>
             <div>
