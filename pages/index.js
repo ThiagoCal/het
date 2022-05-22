@@ -1,7 +1,8 @@
+// import Document, { Html, Body, NextScript } from 'next/document'
 import Head from 'next/head'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
-import Image from "next/image"
+// import Image from "next/image"
 import Nav from '../components/Nav'
 import Rsvp from '../components/RSVP'
 import Footer from '../components/Footer'
@@ -36,6 +37,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
+        <body>
+
        <div style={{
           backgroundImage: `url(${imageUrl.src})`,
           width: null, height: null,
@@ -51,9 +54,10 @@ export default function Home() {
         <Countdown/>
         <Rsvp/>
         <br/>
-      </div>
+        </div>
       <Footer/>
-    </div>
+    </body>
+  </div>
   )
 }
 

@@ -58,7 +58,7 @@ function Rsvp() {
             </div>
           </form>
         </div>
-        <div className="col-lg-5">
+        <div className="col-lg-5 offset-lg-1">
             <Pix />
         </div>
         {/* <div className="col-sm-1"></div>

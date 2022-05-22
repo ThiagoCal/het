@@ -62,8 +62,10 @@ function Main(){
         </div>
       </div>
       <div className="row mt-4">
-        <div className="col-lg-12 middle-wrap">
-        <div className="middle" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} />
+        <div className="col-lg-12 ">
+          <div className="middelimg"></div>
+          <Middle/>
+        {/* <div className="banner" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} /> */}
         </div>
       </div>
       <div className="row mt-4">

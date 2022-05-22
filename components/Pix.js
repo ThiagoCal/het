@@ -15,9 +15,9 @@ function Pix() {
     setCopySuccess('Copied!');
   };
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="container text-center">
-        <div className="pix" >
+        <div className="pix text1" >
           <h1>Presente</h1>
           <p>Estamos saindo do país!
             Por isso, preferimos presentes em forma de PIX.</p>
@@ -25,7 +25,10 @@ function Pix() {
         <div>
           <Image
             src={qrcode}
-            alt="Pix">
+            alt="Pix"
+            width="200px"
+            height = "200px"
+            >
           </Image>
         </div>
         <div>
@@ -37,7 +40,8 @@ function Pix() {
             <div>
               <textarea
                 ref={textAreaRef}
-                value='00020126650014br.gov.bcb.pix0130thiagotorrescalazans@gmail.com0209Casamento5204000053039865802BR5925THIAGO ROSSITER GUIMARAES6014RIO DE JANEIRO62250521Casamentohannaethiago6304C020'
+                disabled={true}
+                defaultValue='00020126650014br.gov.bcb.pix0130thiagotorrescalazans@gmail.com0209Casamento5204000053039865802BR5925THIAGO ROSSITER GUIMARAES6014RIO DE JANEIRO62250521Casamentohannaethiago6304C020'
               />
             </div>
           </form>
