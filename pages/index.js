@@ -14,6 +14,10 @@ import desktopImage from '../public/backgroundpurple-rm.png'
 import mobileImage from '../public/mobilebg-rm.png'
 import { useState, useEffect } from 'react';
 
+
+
+
+
 export default function Home() {
 
   useEffect(() => {

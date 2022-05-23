@@ -3,7 +3,7 @@ import weddingpic from "../public/hannaethiago.jpg"
 import pipos from "../public/pipos.jpg"
 import Middle from '../components/Middle'
 import middle from "../public/bannerwed.jpg"
-
+import Middlemobile from '../components/Middlemobile'
 
 function Main(){
   return(
@@ -62,7 +62,12 @@ function Main(){
       </div>
       <div className="row mt-4">
         <div className="col-lg-12">
-          <div className="middelimg"></div>
+          <Middlemobile />
+        {/* <div className="banner" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} /> */}
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className="col-lg-12">
           <Middle/>
         {/* <div className="banner" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} /> */}
         </div>
