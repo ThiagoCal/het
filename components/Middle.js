@@ -9,7 +9,6 @@ function Middle() {
         backgroundImage: `url(${middle.src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover"
-
       }}>
           {/* <img
             className="middle-img"

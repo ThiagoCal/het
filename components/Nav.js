@@ -1,17 +1,19 @@
 import Link from 'next/link'
 import Image from "next/image"
 import koala from "../public/koala.png"
+import th from "../public/thlogo.png"
 
 function Nav (){
   return(
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light nav-color">
+      <div className="container-fluid nav-height">
         <Link href="/"><a className="navbar-brand text-center"><Image
-                src={koala}
+                src={th}
                 alt="H&T"
-                width="100"
-                height="70"
-                padding="0"
+                width="80%"
+                height="80%"
+                padding-top="0"
+                margin-top="0"
             >
             </Image></a></Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
