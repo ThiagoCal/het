@@ -34,17 +34,17 @@ function Countdown(){
   }, [])
 
   return(
-    <div className="container mt-3">
+    <div className="container countdown">
       <div className="row">
         {partyTime ? (
           <h1>Party Time!!</h1>
         ) : (
         <div className="col-sm-4 offset-sm-4">
-          <h2 className="text-center">Countdown!</h2>
+          <p className="text-center title">Countdown</p>
           <div className="time-wrapper d-flex justify-content-center">
             <div className="timer-inner">
               <div className="timer-segment">
-                <span className="time">{days}</span>
+                <span className="time days">{days}</span>
                 <span className="label">Dias</span>
               </div>
               <span className="divider">:</span>

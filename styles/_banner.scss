@@ -39,6 +39,98 @@
 //   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 // }
 
-.middle {
-  aspect-ratio: 10 / 5;
+// .image-wrap{
+//   position:relative;
+//   overflow: hidden;
+//   height: 100%;
+//   width: auto;
+// }
+
+// .middle{
+//   position: relative;
+//   border-radius: 15px 15px 15px 15px;
+//   width: 110%;
+//   height: 300px;
+//   overflow: hidden;
+//   padding-left:0px;
+//   margin-left: 0px;
+// }
+.mb-out{
+  display: none;
 }
+
+.middle-mobile{
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-left:0px;
+  margin-left: 0px;
+
+}
+
+.middle{
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+// .middle-img {
+//   position: absolute;
+//   width: 85%;
+//   object-fit: fill;
+//   border-radius: 15px 15px 15px 15px;
+//   top: -188px;
+//   align-content: stretch;
+//   padding: 2px;
+// }
+
+@media (max-width: 820px) {
+  .middle{
+    position: relative;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-left:0px;
+    margin-left: 0px;
+  }
+
+  .mb-out{
+    display: block;
+  }
+
+  .lg-out{
+    display: none;
+  }
+  .middle-img {
+    position: relative;
+    // height: 100%;
+    width: 100%;
+    top: 0px;
+    align-content: center;
+  }
+}
+
+// .middleimg{
+//   background-image: url("../public/bannerwed.jpg");
+// }
+// .middle{
+//   // position: relative;
+//   max-height: 100px;
+//   height: 100%;
+//   display: flex;
+//   // background-size: cover;
+//   // background-position: center;
+//   // padding: 150px 0;
+// }
+
+// .imgmiddle{
+//   display: block;
+
+//   // position: absolute;
+// }

@@ -9,11 +9,14 @@
 }
 
 .text1{
-  font-size: 1.3em;
+  font-size: 1.28em;
+  font-weight: 400;
+  font-family: 'Quattrocento'
 }
 
 .text2{
-  font-size: 1.3em;
+  font-size: 1.28em;
+  font-family: 'Quattrocento'
 }
 
 .row2{
@@ -28,6 +31,27 @@
   font-size: 1.5rem;
 }
 
+@media (max-width: 360px) {
+  .ahava{
+    padding-left: 1em;
+    text-align: center;
+  }
+  .port {
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+  }
+
+  .hebrew{
+    margin-bottom: -1em;
+  }
+  .amor {
+    font-size: 2rem;
+  }
+
+  .song{
+    font-size: 1rem;
+  }
+}
 .wedding{
   border-radius: 5px;
   align-items:center;
@@ -45,6 +69,30 @@
   // overflow: hidden;
   // border: 20px solid plum;
 }
-.countdown{
-  align-content: center;
+
+// .imgpos{
+//   margin-top: 0.1em;
+// }
+
+@media (max-width: 820px) {
+  .wedding{
+    width: auto;
+  }
+  .imgpos{
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .second-image{
+    margin-top: 3em;
+  }
 }
+
+
+// .first-text{
+//   // background-color: rgba(245, 245, 245, 0.2);
+//   font-family: 'Quattrocento';
+// }
+
+// .second-text{
+//   background-color: rgba(245, 245, 245, 0.2);
+// }

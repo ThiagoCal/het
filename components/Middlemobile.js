@@ -1,17 +1,12 @@
 import Image from "next/image"
 import middle from "../public/bannerwed.jpg"
 
-function Middle() {
+function Middlemobile() {
   return (
     // <div className="image-wrap">
     <div className="container mt-4 mb-4">
-      <div className="middle container" style={{
-        backgroundImage: `url(${middle.src})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
-
-      }}>
-          {/* <img
+      <div className="middle-mobile ">
+          <img
             className="middle-img"
             src={middle.src}
             alt="Wedding Picture"
@@ -19,10 +14,10 @@ function Middle() {
             // width="100%"
             // height="100%"
           >
-          </img> */}
+          </img>
       </div>
     </div>
   )
 }
 
-export default Middle
+export default Middlemobile

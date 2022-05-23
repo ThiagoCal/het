@@ -8,7 +8,7 @@ a {
 }
 
 footer {
-  background-color: #0a4275;
+  background-color: rgb(31,69,113);
 }
 
 .logo {
@@ -19,3 +19,23 @@ footer {
 .contato{
   font-size: 1.5em;
 }
+
+.rsvp{
+  font-family: 'Quattrocento';
+}
+
+.rsvp-title{
+  font-weight: 400;
+  text-align: center;
+}
+// body {
+//   background-image: url("../public/backgroundpurple-rm.png");
+//   // width: null, height: null,
+//   background-repeat: 'no-repeat';
+// }
+
+// .bg{
+//   background-image: var(--img), url("../public/layered-peaks-haikei.svg");
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
