@@ -19,12 +19,12 @@ function Rsvp() {
   return (
     <div className="container mt-4 justify-content-center">
       <div className="row">
-        <div className="col-lg-5">
+        <div className="col-lg-5 rsvp">
           <form onSubmit={handleSubmit}>
-            <h2 className="">RSVP</h2>
+            <h1 className="rsvp-title">RSVP</h1>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Nome e Sobrenome</label>
-              <input type="text" name="nome" className="form-control" />
+              <input type="text" name="nome" className="form-control" placeholder="Nome completo do convidado" />
             </div>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Mensagem</label>

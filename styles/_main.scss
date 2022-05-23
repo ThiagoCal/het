@@ -9,12 +9,13 @@
 }
 
 .text1{
-  font-size: 1.4em;
+  font-size: 1.28em;
+  font-weight: 400;
   font-family: 'Quattrocento'
 }
 
 .text2{
-  font-size: 1.4em;
+  font-size: 1.28em;
   font-family: 'Quattrocento'
 }
 
@@ -48,12 +49,26 @@
   // border: 20px solid plum;
 }
 
+// .imgpos{
+//   margin-top: 0.1em;
+// }
 
-.first-text{
-  background-color: rgba(245, 245, 245, 0.2);
-  font-family: 'Quattrocento';
+@media (max-width: 820px) {
+  .imgpos{
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .second-image{
+    margin-top: 3em;
+  }
 }
 
-.second-text{
-  background-color: rgba(245, 245, 245, 0.2);
-}
+
+// .first-text{
+//   // background-color: rgba(245, 245, 245, 0.2);
+//   font-family: 'Quattrocento';
+// }
+
+// .second-text{
+//   background-color: rgba(245, 245, 245, 0.2);
+// }

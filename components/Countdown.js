@@ -34,7 +34,7 @@ function Countdown(){
   }, [])
 
   return(
-    <div className="container mt-5 mb-5 pt-2">
+    <div className="container countdown">
       <div className="row">
         {partyTime ? (
           <h1>Party Time!!</h1>

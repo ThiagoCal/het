@@ -15,11 +15,11 @@ function Pix() {
     setCopySuccess('Copied!');
   };
   return (
-    <div className="container mt-5">
+    <div className="container pix-block">
       <div className="container text-center">
-        <div className="pix text1" >
+        <div className="text1" >
           <h1>Presente</h1>
-          <p>Estamos saindo do país!
+          <p>Estamos saindo do país!<br/>
             Por isso, preferimos presentes em forma de PIX.</p>
         </div>
         <div>
@@ -37,10 +37,10 @@ function Pix() {
               {copySuccess}
             </div>
           <form>
-            <div>
+            <div className="mt-3">
               <textarea
                 ref={textAreaRef}
-                disabled={true}
+                // disabled={true}
                 defaultValue='00020126650014br.gov.bcb.pix0130thiagotorrescalazans@gmail.com0209Casamento5204000053039865802BR5925THIAGO ROSSITER GUIMARAES6014RIO DE JANEIRO62250521Casamentohannaethiago6304C020'
               />
             </div>

@@ -7,7 +7,7 @@ function Local() {
   return (
     <div className="container mt-3 mb-4">
       <div className="row mt-3">
-        <div className="col-lg-6 localimg ">
+        <div className="col-lg-5 localimg ">
           <div className="localimg">
             <Image
                 src={clarice}
@@ -19,13 +19,13 @@ function Local() {
             </Image>
           </div>
         </div>
-        <div className="col-lg-5 offset-lg-1 pt-2 local">
+        <div className="col-lg-5 offset-lg-1 local">
           <Info>Local:</Info>
-          <p className="chalet">Chalet Clarice <Link target="_blank" href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6"  rel='noopener noreferrer'> (mapa)</Link></p>
-          Rua Assunção, n. 2 <br />
-          Botafogo, Rio de Janeiro - RJ, 22251-030 <br /><br />
+          Les Palais - Chalet Clarice <Link href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6"><a target="_blank" rel="noopener noreferrer" className="chalet" >(mapa)</a></Link><br/>
+          Rua Assunção, n. 2<br/>
+          Botafogo, Rio de Janeiro - RJ, 22251-030
           <Info>Dia e hora:</Info>
-          Sábado - 09/07/2022 às 18h45min <br /><br />
+          Sábado - 09/julho/2022 às 18h45min
           <Info>Traje:</Info>
           Passeio Completo <br />
         </div>
@@ -35,7 +35,7 @@ function Local() {
 }
 
 function Info( {children} ){
-  return <div className="fs-5">{ children }</div>
+  return <div className="fs-5 pt-3">{ children }</div>
 }
 
 export default Local
