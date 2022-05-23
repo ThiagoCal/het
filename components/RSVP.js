@@ -17,10 +17,10 @@ function Rsvp() {
       .catch(() => setState({ error: true }))
   }
   return (
-    <div className="container mt-4 justify-content-center">
+    <div className="container mt-4">
       <div className="row">
-        <div className="col-lg-5 rsvp">
-          <form onSubmit={handleSubmit}>
+        <div className="col-lg-5 offset-lg-1 justify-content-center rsvp">
+          <form id="rsvp" onSubmit={handleSubmit}>
             <h1 className="rsvp-title">RSVP</h1>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Nome e Sobrenome</label>
@@ -28,11 +28,11 @@ function Rsvp() {
             </div>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Mensagem</label>
-              <textarea className="form-control" name="mensagem" placeholder="Deixe aqui sua mensagem para o casal (não ficará pública)" rows="4" />
+              <textarea name="mensagem" placeholder="Deixe aqui sua mensagem para o casal (não ficará pública)" className="form-control" rows="4" />
             </div>
             <div className="form-check d-flex justify-content-center mb-4">
               <label className="form-check-label" htmlFor="going">
-                <input className="form-check-input me-2" id="going" type="radio" name="vai" value="sim" defaultChecked />
+                <input id="going" type="radio" name="vai" value="sim" defaultChecked className="form-check-input me-2"  />
                 Vou
               </label>
             </div>
@@ -58,7 +58,7 @@ function Rsvp() {
             </div>
           </form>
         </div>
-        <div className="col-lg-5 offset-lg-1">
+        <div className="col-lg-5 ml-4">
             <Pix />
         </div>
         {/* <div className="col-sm-1"></div>

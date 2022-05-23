@@ -47,6 +47,7 @@ export default function Home() {
           backgroundImage: `url(${imageUrl.src})`,
           width: null, height: null,
           backgroundRepeat: 'no-repeat',
+          backgroundSize: 'contain'
           // backgroundColor: 'rgba(161, 196, 250, 0.8)'
         }}>
         {/* <div className="bg" style={{"--img": `url(${imageUrl.src})`}}> */}

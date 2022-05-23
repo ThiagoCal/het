@@ -25,7 +25,7 @@ function Main(){
         <div className="col-lg-8">
           <div className="row mb-4">
             <div className="col-lg-4 offset-lg-2">
-              <div className="card-block">
+              <div className="card-block ahava port">
                 <span className="amor">Amor</span><br/>
                 <span className="song">É uma palavra linda,<br/>
                 É uma reza linda,<br/>
@@ -34,7 +34,7 @@ function Main(){
               </div>
             </div>
             <div className="col-lg-4 offset-lg-2">
-              <div className="card-block">
+              <div className="card-block ahava hebrew">
                 <span className="amor">אהבה</span><br/>
                   <span className="song">,היא מילה יפה<br/>
                 ,היא תפילה יפה<br/>
@@ -42,10 +42,9 @@ function Main(){
               </div>
             </div>
           </div>
-          <div className="row offset-lg-1 pb-3">
+          <div className="row offset-lg-1">
             <div className="col-lg-11 bgtext pl-3 mt-1 txt">
               <div className=" p-3 first-text">
-
                 <div className=" text1">
                 É com imensa alegria que vamos comemorar nosso casamento com aqueles que mais amamos.
                 Contamos com a presença de todos para curtirmos muito esse dia! <br/><br/>
@@ -60,14 +59,13 @@ function Main(){
           </div>
         </div>
       </div>
-      <div className="row mt-4">
+      <div className="row mt-4 mb-out">
         <div className="col-lg-12">
           <Middlemobile />
-        {/* <div className="banner" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} /> */}
         </div>
       </div>
-      <div className="row mt-4">
-        <div className="col-lg-12">
+      <div className="row mt-4 lg-out">
+        <div className="col-lg-12 ">
           <Middle/>
         {/* <div className="banner" style={{ backgroundImage: `url(${middle})`, position:'absolute',width:"100%",height:"100%",zIndex:0,borderTopRightRadius:"20%",overflow:"hidden", resizeMode:"cover"}} /> */}
         </div>
@@ -86,7 +84,7 @@ function Main(){
             </div>
           </div>
         </div>
-        <div className="col-lg-5  mt-4 second-image">
+        <div className="col-lg-5 mt-4 second-image">
           <div className="container">
             <div className="imgpos">
                 <Image

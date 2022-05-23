@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function Local() {
   return (
-    <div className="container mt-3 mb-4">
+    <div className="container mt-3 mb-4 bg-color">
       <div className="row mt-3">
         <div className="col-lg-5 localimg ">
           <div className="localimg">
@@ -21,7 +21,9 @@ function Local() {
         </div>
         <div className="col-lg-5 offset-lg-1 local">
           <Info>Local:</Info>
-          Les Palais - Chalet Clarice <Link href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6"><a target="_blank" rel="noopener noreferrer" className="chalet" >(mapa)</a></Link><br/>
+          Les Palais - Chalet Clarice - <Link href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6">
+            <a target="_blank" rel="noopener noreferrer" className="chalet" >mapa</a>
+          </Link><br/>
           Rua Assunção, n. 2<br/>
           Botafogo, Rio de Janeiro - RJ, 22251-030
           <Info>Dia e hora:</Info>
