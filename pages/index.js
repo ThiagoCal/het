@@ -11,7 +11,7 @@ import Main from '../components/Main'
 import Local from '../components/Local'
 import Countdown from '../components/Countdown'
 import desktopImage from '../public/backgroundpurple-rm.png'
-import mobileImage from '../public/mobilebg-rm.png'
+import mobileImage from '../public/mobilebg-rm2.png'
 import { useState, useEffect } from 'react';
 
 

@@ -13,7 +13,7 @@
   // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 4rem;
   // font-weight: bold;
-  font-family: 'Quattrocento'
+  font-family: 'Lustria', serif;
 }
 
 .banner p {
@@ -21,9 +21,26 @@
   color: rgb(23, 86, 108);
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-family: 'Quattrocento'
+  font-family: 'Lustria', serif;
 }
 
+@media screen and (min-width: 600px)  {
+  .mobile-break { display: none; }
+}
+
+@media (max-width: 360px) {
+  .banner{
+    margin-top: 1em;
+    padding-top: 1.2rem;
+    padding-bottom: 0.1rem;
+  }
+  .banner h1{
+    font-size: 2rem;
+  }
+  .banner p{
+    font-size: 1.5rem;
+  }
+}
 
 // .middle{
 //   height:50%;

@@ -4,13 +4,18 @@ import pipos from "../public/pipos.jpg"
 import Middle from '../components/Middle'
 import middle from "../public/bannerwed.jpg"
 import Middlemobile from '../components/Middlemobile'
+import Link from 'next/link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faStarOfDavid } from "@fortawesome/free-solid-svg-icons"
 
+library.add(faStarOfDavid)
 function Main(){
   return(
-    <div className="container mt-4 mb-4">
+    <div className="container margin-main mb-4">
       <div className="row">
-        <div className="col-lg-4 mt-3">
-          <div>
+        <div className="col-lg-4 ">
+          <div className="margin-img1">
               <Image
                 src={weddingpic}
                 alt="Wedding Picture"
@@ -51,8 +56,8 @@ function Main(){
                 Somos muito felizes em termos vocês como amigos, pessoas que acompanham nossa história de perto
                  e deixam nossos dias mais top. Não queremos nos gabar, mas temos os melhores amigos do mundo
                   e isso é incontestável! Queremos ver geral na pista, de Hava Naguila até o DJ sair!<br/><br/>
-                É importante para nós que você <strong>confirme a sua presença</strong>. Preencha o RSVP ao final da página,
-                 com seu nome completo. Lá, você também pode nos deixar uma mensagem – vamos adorar!
+                É importante para nós que você <strong>confirme a sua presença</strong>. Preencha o <Link href="#rsvp"><a className="chalet">RSVP</a></Link> ao final da página,
+                 com seu nome completo. Lá, você também pode nos deixar uma mensagem – vamos adorar! <span role="img" aria-label="party">🎉</span>
                 </div>
               </div>
             </div>
@@ -79,7 +84,7 @@ function Main(){
               foi se transformando numa linda história de amor. <br/><br/>
               Sempre buscando encontrar o equilíbrio entre festas na Matriz e idas à sinagoga, vivemos muitos momentos incríveis e desafiadores juntos, sempre com a certeza de que teríamos o apoio
               um do outro.<br/><br/>
-              A cerimônia do nosso casamento será <strong>judaica</strong>. Com Hanninha dando voltas no Thi, 7 brachot, quebra do copo, levantamento dos noivos nas cadeiras e muito mais! <br/><br/>
+              A cerimônia do nosso casamento será <strong>judaica</strong> <FontAwesomeIcon icon={faStarOfDavid} className="star" />. Com Hanninha dando voltas no Thi, 7 brachot, quebra do copo, levantamento dos noivos nas cadeiras e muito mais! <br/><br/>
               Venha gritar Mazal Tov e bebemorar bastante com a gente!
             </div>
           </div>
