@@ -1,20 +1,19 @@
 import Image from "next/image";
-import banner from "../public/bannerwed.jpg";
-import { useState, useRef } from 'react';
-import ReactDOM from 'react-dom';
+// import { useState, useRef } from 'react';
+// import ReactDOM from 'react-dom';
 import qrcode from '../public/qrcodecasamento.jpeg';
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function Pix() {
-  const [copySuccess, setCopySuccess] = useState('');
-  const textAreaRef = useRef(null);
+  // const [copySuccess, setCopySuccess] = useState('');
+  // const textAreaRef = useRef(null);
 
-  function copyToClipboard(e) {
-    textAreaRef.current.select();
-    document.execCommand('copy');
-    e.target.focus();
-    setCopySuccess('Copied!');
-  };
+  // function copyToClipboard(e) {
+  //   textAreaRef.current.select();
+  //   document.execCommand('copy');
+  //   e.target.focus();
+  //   setCopySuccess('Copied!');
+  // };
   return (
     <div className="container pix-block">
       <div className="container text-center">
@@ -39,11 +38,11 @@ function Pix() {
             </div> */}
           <form>
             <div className="mt-3">
-            <CopyToClipboard
-              text="00020126650014br.gov.bcb.pix0130thiagotorrescalazans@gmail.com0209Casamento5204000053039865802BR5925THIAGO ROSSITER GUIMARAES6014RIO DE JANEIRO62250521Casamentohannaethiago6304C020"
-              onCopy={() => alert("Copiada")}>
-                <button className="btn btn-success">Copie a chave Pix</button>
-            </CopyToClipboard>
+              <CopyToClipboard
+                text="00020126650014br.gov.bcb.pix0130thiagotorrescalazans@gmail.com0209Casamento5204000053039865802BR5925THIAGO ROSSITER GUIMARAES6014RIO DE JANEIRO62250521Casamentohannaethiago6304C020"
+                onCopy={() => alert("Copiada")}>
+                  <button className="btn btn-success">Copie a chave Pix</button>
+              </CopyToClipboard>
               {/* <textarea
                 ref={textAreaRef}
                 // disabled={true}
