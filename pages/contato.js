@@ -16,7 +16,7 @@ function Contato(){
 //   }, [])
 
   return (
-    <div>
+    <>
       <Nav></Nav>
       <div className='container'>
         <div className='row'>
@@ -35,7 +35,7 @@ function Contato(){
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

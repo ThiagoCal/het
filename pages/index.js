@@ -14,9 +14,6 @@ import desktopImage from '../public/backgroundpurple-rm.png'
 import mobileImage from '../public/mobilebg-rm2.png'
 import { useState, useEffect } from 'react';
 
-
-
-
 export default function Home() {
 
   useEffect(() => {
@@ -34,15 +31,14 @@ export default function Home() {
 
   // : mobileImage
   return (
-    <div>
+    <>
       <Head>
         <title>HeT</title>
         <meta name="description" content="Casamento HeT" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-        <body>
-
+      <body>
        <div style={{
           backgroundImage: `url(${imageUrl.src})`,
           width: null, height: null,
@@ -60,9 +56,9 @@ export default function Home() {
         <Rsvp/>
         <br/>
         </div>
-      <Footer/>
-    </body>
-  </div>
+      </body>
+    <Footer/>
+  </>
   )
 }
 
