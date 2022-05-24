@@ -31,14 +31,18 @@ export default function Home() {
   let width = useDeviceSize();
   width = width[0]
   console.log(width)
-  const imageUrl = width >= 650 ? desktopImage : mobileImage;
+  const imageUrl = width >= 650 ? desktopImage : "";
 
+  // : mobileImage
   return (
     <div>
       <Head>
         <title>HeT</title>
         <meta name="description" content="Casamento HeT" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Headland+One&family=Lustria&family=Montserrat:wght@300;500&family=Quattrocento&family=Roboto:wght@300;500&display=swap" rel="stylesheet"></link>
       </Head>
       <Nav/>
         <body>

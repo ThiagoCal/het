@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+// .dropdown{
+//   position:ab;
+// }
+
 footer {
   background-color: rgb(31,69,113);
 }
@@ -22,6 +26,12 @@ footer {
 
 .nav-color{
   background-color: #e6dafe;
+}
+
+@media (max-width: 360px) {
+  .nav-height{
+    height:80px;
+  }
 }
 .nav-height{
   height: 78px;
