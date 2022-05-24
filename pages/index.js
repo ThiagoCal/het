@@ -38,7 +38,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-      <body>
+      <div>
        <div style={{
           backgroundImage: `url(${imageUrl.src})`,
           width: null, height: null,
@@ -56,7 +56,7 @@ export default function Home() {
         <Rsvp/>
         <br/>
         </div>
-      </body>
+      </div>
     <Footer/>
   </>
   )
