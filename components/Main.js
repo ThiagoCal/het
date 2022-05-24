@@ -30,7 +30,7 @@ function Main(){
         <div className="col-lg-8">
           <div className="row mb-4">
             <div className="col-lg-4 offset-lg-2">
-              <div className="card-block ahava port">
+              <div className="card-block ahava port" >
                 <span className="amor">Amor</span><br/>
                 <span className="song">É uma palavra linda,<br/>
                 É uma reza linda,<br/>
@@ -50,7 +50,7 @@ function Main(){
           <div className="row offset-lg-1">
             <div className="col-lg-11 bgtext pl-3 mt-1 txt">
               <div className=" p-3 first-text">
-                <div className=" text1">
+                <div className=" text1" style={{fontFamily: 'Quattrocento'}}>
                 É com imensa alegria que vamos comemorar nosso casamento com aqueles que mais amamos.
                 Contamos com a presença de todos para curtirmos muito esse dia! <br/><br/>
                 Somos muito felizes em termos vocês como amigos, pessoas que acompanham nossa história de perto
@@ -78,7 +78,7 @@ function Main(){
       <div className="row mt-4">
         <div className="col-lg-7 pl-3 txt">
           <div className="second-text p-3">
-            <div className="text2">
+            <div className="text2" style={{fontFamily: 'Quattrocento'}}>
               Nunca podíamos imaginar que aquela noite num bar em Botafogo
               iria mudar completamente nossas vidas. O que começou como uma amizade despretensiosa,
               foi se transformando numa linda história de amor. <br/><br/>

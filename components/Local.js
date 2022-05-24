@@ -7,7 +7,7 @@ function Local() {
   return (
     <div className="container mt-3 mb-4 bg-color">
       <div className="row mt-3">
-        <div className="col-lg-5 localimg ">
+        <div className="col-lg-5 localimg" style={{fontFamily: 'Quattrocento'}}>
           <div className="localimg">
             <Image
                 src={clarice}

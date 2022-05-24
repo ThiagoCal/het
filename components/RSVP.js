@@ -19,7 +19,7 @@ function Rsvp() {
   return (
     <div className="container mt-4">
       <div className="row">
-        <div className="col-lg-5 offset-lg-1 justify-content-center rsvp">
+        <div className="col-lg-5 offset-lg-1 justify-content-center rsvp" style={{fontFamily: 'Quattrocento'}}>
           <form id="rsvp" onSubmit={handleSubmit}>
             <h1 className="rsvp-title">RSVP</h1>
             <div className="form-outline mb-4">

@@ -17,7 +17,7 @@ function Pix() {
   return (
     <div className="container pix-block">
       <div className="container text-center">
-        <div className="text1" >
+        <div className="text1" style={{fontFamily: 'Quattrocento'}} >
           <h1>Presente</h1>
           <p>Estamos saindo do país!<br/>
             Por isso, preferimos presentes em forma de PIX.</p>
