@@ -3,13 +3,29 @@
   border-radius: 5px;
 }
 
+.row-width{
+  height: 180px;
+}
+.bg-port{
+  padding-top: 0px;
+  height: 200px;
+}
+.bg-hebrew{
+  height: 200px;
+}
+
 @media (max-width:820px) {
+  .row-width{
+    height: auto;
+  }
   .bg-first{
+    height: auto;
     padding-top: 2em;
     background-color: rgb(230,218,254);
     border-radius: 10px 10px 0px 0px;
   }
   .bg-port{
+    height: auto;
     background-color: rgb(230,218,254);
   }
   .bg-hebrew{
@@ -58,7 +74,6 @@
 
 @media (max-width: 820px) {
   .ahava{
-    padding-left: 1em;
     text-align: center;
   }
   .port {

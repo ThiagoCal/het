@@ -27,7 +27,7 @@ export default function Home() {
   let width = useDeviceSize();
   width = width[0]
   console.log(width)
-  const imageUrl = width >= 650 ? desktopImage : "";
+  const imageUrl = width >= 821 ? desktopImage : "";
 
   // : mobileImage
   return (

@@ -28,7 +28,7 @@ function Main(){
           </div>
         </div>
         <div className="col-lg-8">
-          <div className="row mb-4">
+          <div className="row mb-1 row-width">
             <div className="col-lg-4 offset-lg-2 bg-port">
               <div className="card-block ahava port" >
                 <span className="amor">Amor</span><br/>
