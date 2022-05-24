@@ -38,7 +38,7 @@ function Main(){
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 offset-lg-2 pb-4 bg-hebrew">
+            <div className="col-lg-4 offset-lg-2 pb-5 bg-hebrew">
               <div className="card-block ahava hebrew">
                 <span className="amor">אהבה</span><br/>
                   <span className="song">,היא מילה יפה<br/>
