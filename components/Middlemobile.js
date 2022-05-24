@@ -10,9 +10,9 @@ function Middlemobile() {
             className="middle-img"
             src={middle.src}
             alt="Wedding Picture"
+            width= "null"
+            height= "null"
 
-            // width="100%"
-            // height="100%"
           >
           </img>
       </div>
