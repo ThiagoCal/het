@@ -14,7 +14,7 @@ function Main(){
   return(
     <div className="container margin-main mb-4">
       <div className="row">
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 bg-first">
           <div className="margin-img1">
               <Image
                 src={weddingpic}
@@ -29,7 +29,7 @@ function Main(){
         </div>
         <div className="col-lg-8">
           <div className="row mb-4">
-            <div className="col-lg-4 offset-lg-2">
+            <div className="col-lg-4 offset-lg-2 bg-port">
               <div className="card-block ahava port" >
                 <span className="amor">Amor</span><br/>
                 <span className="song">É uma palavra linda,<br/>
@@ -38,7 +38,7 @@ function Main(){
                 </span>
               </div>
             </div>
-            <div className="col-lg-4 offset-lg-2">
+            <div className="col-lg-4 offset-lg-2 pb-4 bg-hebrew">
               <div className="card-block ahava hebrew">
                 <span className="amor">אהבה</span><br/>
                   <span className="song">,היא מילה יפה<br/>
@@ -85,7 +85,7 @@ function Main(){
               Sempre buscando encontrar o equilíbrio entre festas na Matriz e idas à sinagoga, vivemos muitos momentos incríveis e desafiadores juntos, sempre com a certeza de que teríamos o apoio
               um do outro.<br/><br/>
               A cerimônia do nosso casamento será <strong>judaica</strong> <FontAwesomeIcon icon={faStarOfDavid} className="star" />. Com Hanninha dando voltas no Thi, 7 brachot, quebra do copo, levantamento dos noivos nas cadeiras e muito mais! <br/><br/>
-              Venha gritar Mazal Tov e bebemorar bastante com a gente!
+              Venha gritar Mazal Tov e comemorar bastante com a gente!
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ function Local() {
           Les Palais - Chalet Clarice - <Link href="https://goo.gl/maps/ddVXeDyxy6a8wvNH6">
             <a target="_blank" rel="noopener noreferrer" className="chalet" >mapa</a>
           </Link><br/>
-          Rua Assunção, n. 2<br/>
+          Rua Assunção, nº 2<br/>
           Botafogo, Rio de Janeiro - RJ, 22251-030
           <Info>Dia e hora:</Info>
           Sábado - 09/julho/2022 às 18h45min
