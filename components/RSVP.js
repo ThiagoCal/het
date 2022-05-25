@@ -24,7 +24,7 @@ function Rsvp() {
             <h1 className="rsvp-title">RSVP</h1>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Nome e Sobrenome</label>
-              <input type="text" name="nome" className="form-control" placeholder="Nome completo do convidado" />
+              <input type="text" name="nome" className="form-control" placeholder="Nome completo do convidado" required />
             </div>
             <div className="form-outline mb-4">
               <label type="text" className="form-label">Mensagem</label>
