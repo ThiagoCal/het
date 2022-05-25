@@ -43,7 +43,7 @@ export default function Home() {
           property='og:description'
           content='Casamento Hanna & Thiago'
         />
-        <meta property='og:url' content='https://hannaethiago.herokuapp.com//' />
+        <meta property='og:url' content='https://hannaethiago.herokuapp.com/' />
         <meta property='og:type' content='website' />
         <meta property="og:image" content={previewimg.src} />
         <link rel="icon" href="/favicon.ico" />
