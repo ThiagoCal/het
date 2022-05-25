@@ -16,7 +16,7 @@ import { useState, useEffect } from 'react';
 import previewimg from '../public/bannerwed2.jpg'
 
 export default function Home() {
-
+  const siteUrl = 'https://hannaethiago.herokuapp.com/'
   useEffect(() => {
 
       // Run code on client-side only : ensure document is here
@@ -35,15 +35,14 @@ export default function Home() {
     <>
       <Head>
         <title>HeT</title>
-        <meta name="description" content="Casamento HeT" />
         <meta property='og:title' content='Casamento Hanna e Thiago' />
         <meta
           property='og:description'
           content='Casamento Hanna & Thiago'
         />
-        <meta property='og:url' content='https://hannaethiago.herokuapp.com/' />
+        <meta property='og:url' content={siteUrl} />
         <meta property='og:type' content='website' />
-        <meta property="og:image" content={previewimg.src} />
+        <meta property="og:image" content={siteUrl+previewimg.src} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
