@@ -36,8 +36,6 @@ export default function Home() {
       <Head>
         <title>HeT</title>
         <meta name="description" content="Casamento HeT" />
-        <title>Lanchonete Agarikov</title>
-        <meta name='description' content='Casamento mais lindo do mundo' />
         <meta property='og:title' content='Casamento Hanna e Thiago' />
         <meta
           property='og:description'
